@@ -1,0 +1,45 @@
+/* Center everything */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+  }
+  
+  /* Center the Task List */
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures tasks are centered */
+    width: 100%;
+  }
+  
+  /* Task Item Styling */
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;  /* Fixed width for uniformity */
+    padding: 12px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  /* Button inside Task */
+  .task button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .task button:hover {
+    background: #cc0000;
+  }
